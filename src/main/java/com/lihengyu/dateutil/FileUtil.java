@@ -11,5 +11,5 @@ public class FileUtil {
 		String fileTyle=fileName.substring(fileName.lastIndexOf("."),fileName.length());
 		return fileTyle;
 	}
-
+	 
 }

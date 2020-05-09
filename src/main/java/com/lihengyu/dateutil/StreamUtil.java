@@ -12,17 +12,17 @@ import scala.Array;
 
 public class StreamUtil {
 	
-	public static void closeAll(Cloneable... ios){
+	public static void closeAll(Cloneable... ios){//方法1
 		for(Cloneable io : ios) {
 			
 		}
 	}
 	
-	public static void readTextFile(InputStream src){
+	public static void readTextFile(InputStream src){//方法2
 		//TODO 实现代码
 	}
 	
-	public static List<String> read(InputStream inputStream)throws IOException{
+	public static List<String> read(InputStream inputStream)throws IOException{//方法3
 		//TODO 实现代码
 		BufferedReader read=new BufferedReader(new InputStreamReader(inputStream));
 		List<String> list=new ArrayList<String>();

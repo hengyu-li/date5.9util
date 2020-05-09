@@ -29,5 +29,4 @@ public class DateUtil {
 		c.add(Calendar.SECOND,2);
 		return c.getTime();
 	}
-
 }
